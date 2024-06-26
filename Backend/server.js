@@ -19,7 +19,7 @@ app.use(express.json())
 app.use(cors())
 
 app.use("/",IndexRoute)
-
+app.get("/test", (req, res) => res.send({status: 200, message: "ok"}))
 app.use(customErrorHandler)
 
 const PORT = process.env.PORT || 5000 ;
