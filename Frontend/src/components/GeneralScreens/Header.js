@@ -52,12 +52,6 @@ const Header = () => {
                             <Link className='addStory-link' to="/addblog"><RiPencilFill /> Add Blog </Link>
 
 
-                            <Link to="/readList" className='readList-link'>
-                                <BsBookmarks />
-                                <span id="readListLength">
-                                    {activeUser.readListLength}
-                                </span>
-                            </Link>
                             <div className='header-profile-wrapper '>
 
 
