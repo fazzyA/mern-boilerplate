@@ -6,7 +6,7 @@ Fullstack open source blogging application made with MongoDB, Express, React & N
 
 ## Setup
 
-In order to run this project locally, simply fork and clone the repository or download as zip and unzip on your machine.
+In order to run this project locally,
 
 - Open the project in vs code.
 - Go to terminal -> New terminal
