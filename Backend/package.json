@@ -4,7 +4,9 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-        "start": "nodemon server.js --ignore '../Frontend/'"
+        "start": "nodemon server.js --ignore '../Frontend/'",
+        "vercel-build": "echo hello",
+        "build": "npm run vercel-build"
     },
     "keywords": [],
     "author": "Gilbert Hutapea ",
