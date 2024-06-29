@@ -4,7 +4,8 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-        "start": "nodemon server.js --ignore '../Frontend/'",
+        "start": "node server.js",
+        "dev": "nodemon server.js --ignore '../Frontend/'",
         "vercel-build": "echo hello",
         "build": "npm run vercel-build"
     },
